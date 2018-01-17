@@ -1,0 +1,9 @@
+server:
+  port: 8888
+
+hello:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8081,localhost:8082
+    ServerListRefreshInterval: 3000

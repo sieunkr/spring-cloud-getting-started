@@ -1,0 +1,4 @@
+rootProject.name = 'spring-cloud-getting-started'
+
+include 'spring-cloud-ribbon-router'
+include 'spring-cloud-ribbon-server'
